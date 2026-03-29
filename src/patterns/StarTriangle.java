@@ -1,7 +1,7 @@
 package patterns;
 
 public class StarTriangle {
-    void main() {
+    public static void main(String[] args) {
         IO.println("*");
     }
 }

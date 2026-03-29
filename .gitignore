@@ -29,3 +29,23 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Java ###
+# Compiled class files
+*.class
+
+# Build output directories
+bin/
+target/
+out/
+
+# Maven / Gradle wrapper
+.mvn/
+.gradle/
+
+# temporary files
+*.log
+
+# JetBrains artifacts
+.idea/
+*.iml
