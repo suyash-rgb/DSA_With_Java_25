@@ -9,7 +9,7 @@ void main() {
 
     while (count < n) {
         int sum = 0;
-        for (int j = 1; j <= num / 2; j++) { // mid-theorem
+        for (int j = 1; j <= num / 2; j++) { // mid-point theorem
             if (num % j == 0) {
                 sum += j;
             }
