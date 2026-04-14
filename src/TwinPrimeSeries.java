@@ -23,6 +23,7 @@ void main() {
             count++;
             IO.print("(" + num + ", " + (num + 2) + "), ");
         }
-        num++;
+        num++; // you can use num+=2 here to save half iteration O(n/2) instead of O(n)
+               // which is not much but it is still an optimized version
     }
 }
